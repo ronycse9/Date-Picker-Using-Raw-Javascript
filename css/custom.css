@@ -1,0 +1,129 @@
+		:root {
+			--hello-week-max-width: 980px;
+			--hello-week-bg-color: #fff;
+
+			--hello-week-bg-day: var(--hello-week-bg-color);
+			--hello-week-color-day: #ffa07a;
+
+			--hello-week-bg-week: #fff;
+			--hello-week-color-week: #cfcfcf;
+
+			--hello-week-bg-tody: #3e3e3e;
+			--hello-week-color-tody: #fff;
+
+			--hello-week-bg-selected: #7FCBC3;
+			--hello-week-color-selected: #fff;
+
+			--hello-week-bg-weekend: #f3f3f3;
+			--hello-week-color-weekend: #3e3e3e;
+
+			--hello-week-bg-disabled: #f7f8fb;
+			--hello-week-color-disabled: #cfcfcf;
+
+			--hello-week-border-radius: 0;
+		}
+
+		html {
+			font-size: 16px;
+			font-family: 'Source Sans Pro', sans-serif;
+		}
+
+		body {
+			margin: 0;
+			padding: 0;
+			line-height: 1.4;
+			box-sizing: border-box;
+		}
+
+		h1 {
+			font-size: 2.2rem;
+			font-weight: 400;
+			color: #3e3e3e;
+			text-align: center;
+		}
+
+		h2 {
+			font-size: 1.6rem;
+			margin: 2rem 0;
+		}
+
+		p {
+			text-align: center;
+			font-size: 1rem;
+		}
+
+		.hello-week {
+			margin-top: 2rem;
+		}
+
+		.section {
+			display: block;
+			padding: 2rem 0;
+		}
+
+		.section--hero {
+			min-height: 100vh;
+			background-color: #FCEE55;
+		}
+
+		.section--options {
+			background-color: var(--hello-week-bg-selected);
+			min-height: 100vh;
+		}
+
+		.container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-between;
+			max-width: 960px;
+			height: 100%;
+			margin: auto;
+		}
+
+
+		.demo-exemplo {
+			width: 100%;
+			display: flex;
+			padding: 0;
+			margin: 0;
+			list-style: none;
+			justify-content: center;
+			flex-direction: column;
+			margin-top: 2rem;
+		}
+
+		.demo-exemplo ul {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: center;
+			width: 100%;
+			margin: 0;
+			padding: 0;
+		}
+
+		.demo-exemplo ul li {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			background: var(--hello-week-bg-tody);
+			height: auto;
+			align-items: center;
+			justify-content: center;
+			display: inline-flex;
+			padding: 2px 4px;
+			margin: 4px;
+			border-radius: 4px;
+			color: #fff;
+			font-weight: 300;
+		}
+
+		.demo-today {
+			display: flex;
+			padding: 0;
+			margin: 0;
+			list-style: none;
+			width: 100%;
+			flex-wrap: wrap;
+		}
